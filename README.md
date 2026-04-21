@@ -1,11 +1,12 @@
 # CapMonster Cloud Go client
 
-Official Go client for creating CAPTCHA tasks and receiving solutions from the CapMonster Cloud API.
+Official Go SDK for the CapMonster Cloud API.
 
 ## Links
 
 - Documentation: [docs.capmonster.cloud](https://docs.capmonster.cloud/)
 - Dashboard / API key: [dash.capmonster.cloud](https://dash.capmonster.cloud/)
+- Module path: `github.com/ZennoLab/capmonstercloud-client-go`
 
 💵 Want to test before depositing? Contact support and we’ll add trial credits to your account.
 
@@ -17,7 +18,7 @@ go get github.com/ZennoLab/capmonstercloud-client-go
 
 The import path remains `github.com/ZennoLab/capmonstercloud-client-go` for compatibility.
 
-## Usage
+## Minimal example
 ```go
 package main
 
