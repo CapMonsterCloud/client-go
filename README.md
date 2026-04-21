@@ -7,7 +7,7 @@ Official Go client for creating CAPTCHA tasks and receiving solutions from the C
 - Documentation: [docs.capmonster.cloud](https://docs.capmonster.cloud/)
 - Dashboard / API key: [dash.capmonster.cloud](https://dash.capmonster.cloud/)
 
-Need to test before depositing? Contact support and we’ll add trial credits to your account.
+$ Want to test before depositing? Contact support and we’ll add trial credits to your account.
 
 ## Installation
 
