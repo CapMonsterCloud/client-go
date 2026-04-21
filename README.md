@@ -1,6 +1,19 @@
-# Zennolab.CapMonsterCloud.Client
+# CapMonster Cloud Go client
 
-Official Go client library for [capmonster.cloud](https://capmonster.cloud/) captcha recognition service
+Official Go client for creating CAPTCHA tasks and receiving solutions from the CapMonster Cloud API.
+
+## Links
+
+- Documentation: [docs.capmonster.cloud](https://docs.capmonster.cloud/)
+- Dashboard / API key: [dash.capmonster.cloud](https://dash.capmonster.cloud/)
+
+## Installation
+
+```bash
+go get github.com/ZennoLab/capmonstercloud-client-go
+```
+
+The import path remains `github.com/ZennoLab/capmonstercloud-client-go` for compatibility.
 
 ## Usage
 ```go
@@ -44,7 +57,10 @@ func main() {
 	}
 }
 ```
-Supported captcha recognition requests:
+
+Supported task families include reCAPTCHA, GeeTest, Turnstile, image-to-text, and additional task types documented in the public docs.
+
+Supported request classes:
 
 - [GeeTestProxylessRequest](https://zenno.link/doc-geetest-en)
 - [GeeTestRequest](https://zenno.link/doc-geetest-proxy-en)
