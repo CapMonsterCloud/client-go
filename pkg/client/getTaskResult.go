@@ -35,11 +35,6 @@ type geeTestTaskResult struct {
 	Solution tasks.GeeTestTaskSolution `json:"solution"`
 }
 
-type hCaptchaTaskResult struct {
-	result
-	Solution tasks.HCaptchaTaskSolution `json:"solution"`
-}
-
 type imageToTextTaskResult struct {
 	result
 	Solution tasks.ImageToTextTaskSolution `json:"solution"`

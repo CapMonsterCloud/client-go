@@ -45,13 +45,6 @@ var (
 		timeout:                  80 * time.Second,
 	}
 
-	hCaptchaTimings = resolveCapTimings{
-		firstRequestDelay:        1 * time.Second,
-		firstRequestNoCacheDelay: 10 * time.Second,
-		requestsInterval:         3 * time.Second,
-		timeout:                  180 * time.Second,
-	}
-
 	geeTestTimings = resolveCapTimings{
 		firstRequestDelay:        1 * time.Second,
 		firstRequestNoCacheDelay: 1 * time.Second,

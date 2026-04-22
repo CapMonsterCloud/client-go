@@ -67,8 +67,6 @@ Supported request classes:
 
 - [GeeTestProxylessRequest](https://zenno.link/doc-geetest-en)
 - [GeeTestRequest](https://zenno.link/doc-geetest-proxy-en)
-- [HCaptchaProxylessRequest](https://zenno.link/doc-hcaptcha-en)
-- [HCaptchaRequest](https://zenno.link/doc-hcaptcha-proxy-en)
 - [ImageToTextRequest](https://zenno.link/doc-ImageToTextTask-en)
 - [RecaptchaV2ProxylessRequest](https://zenno.link/doc-recaptcha2-en)
 - [RecaptchaV2Request](https://zenno.link/doc-recaptcha2-proxy-en)
@@ -78,4 +76,3 @@ Supported request classes:
 - [TurnstileProxylessRequest](https://zenno.link/doc-turnstile-en)
 - [TurnstileRequest](https://zenno.link/doc-turnstile-proxy-en)
 - [RecaptchaComplexImageTaskRequest](https://zenno.link/doc-complextask-rc-en)
-- [HcaptchaComplexImageTaskRequest](https://zenno.link/doc-complextask-hc-en)
